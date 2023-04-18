@@ -1,0 +1,20 @@
+p {
+  color: red;
+}
+.container {
+  display: flex;
+}
+.cot1 {
+  order: 2;
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  body {
+    background-color: green;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    background-color: blue;
+  }
+}
